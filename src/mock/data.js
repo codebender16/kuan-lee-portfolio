@@ -2,16 +2,16 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Kuan | Developer', // e.g: 'Name | Developer'
+  lang: 'en, jp', // e.g: en, es, fr, jp
+  description: 'Welcome to my portfolio', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
   title: '',
   name: 'Kuan',
-  subtitle: 'I am a',
+  subtitle: 'I am a Software Developer',
   cta: '',
 };
 
@@ -35,7 +35,6 @@ export const projectsData = [
     info:
       'Sturdy Card is a flashcard terminal app that aims to help students remember pieces of important information in their studies',
     info2: 'This app is built using Ruby and Ruby gems',
-    url: 'helloo',
     repo: 'https://github.com/codebender16/sturdycard', // if no repo, the button will not show up
   },
   {
