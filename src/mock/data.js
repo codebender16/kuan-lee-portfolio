@@ -2,27 +2,28 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Kuan | Developer', // e.g: 'Name | Developer'
-  lang: 'en, jp', // e.g: en, es, fr, jp
+  title: 'Kuan | Software Engineer', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
   description: 'Welcome to my portfolio', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
+  title: 'Hey there, I am',
   name: 'Kuan',
-  subtitle: 'I am a Software Developer',
-  cta: '',
+  subtitle: 'I design and build digital products with minimalism in mind',
+  cta: 'Check out my work',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    'I am an enthusiastic developer with a background in business and design. I discovered my passion for coding while working as a junior product manager at a start-up and have since then aspired to build software that can create positive impacts in the society.',
+    'Since my journey as a software engineer, I have done work in multiple projects, solved core problems, collaborated with talented people and helped bring their digital products to the next level',
   paragraphTwo:
-    'My background in business and design has allowed me to utilise critical thinking and problem-solving abilities to produce visually appealing MVPs that meet user and business needs.',
-  paragraphThree: '',
+    'I am a problem-solver, naturally curious and consistently take intiative to improve one step at a time.',
+  paragraphThree:
+    'Tooling: Ruby, JavaScript, TypeScript, Java, C#, Cypress, Jest, Rspec, Capybara, AWS, Docker, Angular, React, Vue, Mocha, Chai, Mockito, Python, HTML, CSS, SASS, Git, Postgresql, SQLite, MongoDB, Nuxt.js, Microservices',
   resume: '', // if no resume, the button will not show up
 };
 
@@ -30,11 +31,41 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'mss.png',
+    title: 'Mr Shopper Studio',
+    info:
+      'Mr Shopper Studio (MSS) is a well-known Singapore-based interior design firm. The website is to improve brand awareness and visibility in the local industry.',
+    info2: 'Tools: Wix | React',
+    url: 'https://www.mrshopperstudio.com',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'intrepidlogo.png',
+    title: 'Intrepid Travel',
+    info:
+      'Intrepid Travel is a web platform for travellers to explore travel packages, find valuable information and book tours.',
+    info2: 'Tools: HTML | SASS | Vue | TypeScript | Nuxt.js | Docker | Github | AWS',
+    url: 'https://www.intrepidtravel.com/en',
+    repo: 'https://github.com/codebender16/sturdycard', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'Visory.png',
+    title: 'Visory: A Platform for Bookkeepers',
+    info:
+      'Visory is a bookkeepers platform built to streamline the engagement and business processes between bookkeepers and their clients',
+    info2: 'Tools: Angular | TypeScript | AWS | React | Docker | Github | Bitbucket',
+    url: 'https://www.visory.com.au',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'project_terminal.png',
     title: 'Sturdy Card Terminal App',
     info:
       'Sturdy Card is a flashcard terminal app that aims to help students remember pieces of important information in their studies',
-    info2: 'This app is built using Ruby and Ruby gems',
+    info2: 'Tools: Ruby | Command Line',
     repo: 'https://github.com/codebender16/sturdycard', // if no repo, the button will not show up
   },
   {
@@ -42,14 +73,14 @@ export const projectsData = [
     img: 'project_portfolio.png',
     title: 'Cloud-themed Portfolio Project',
     info: 'A personal portfolio inspired by the idiom "Every cloud has a silver lining',
-    info2: 'This project is built purely using HTML and CSS.',
+    info2: 'Tools: HTML | CSS | Netlify',
     url: 'https://gkuanlee.netlify.app',
     repo: 'https://github.com/codebender16/portfolio-project', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'project_biztrek.png',
-    title: 'Biztrek - A rails app',
+    title: 'Biztrek - A rails app (currently down)',
     info:
       'Biztrek is an online course marketplace for business mentors and aspiring business venturers to meet.',
     info2:
@@ -69,16 +100,6 @@ export const contactData = {
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: nanoid(),
-      name: 'twitter',
-      url: 'https://twitter.com/codebender16',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: 'https://codepen.io/codebender16',
-    },
     {
       id: nanoid(),
       name: 'linkedin',
